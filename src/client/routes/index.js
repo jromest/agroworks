@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import {
-  BrowserRouter as Router, Switch, Route, withRouter
+  HashRouter as Router, Switch, Route, withRouter
 } from 'react-router-dom';
 
 import LandingPage from '../pages/LandingPage';
