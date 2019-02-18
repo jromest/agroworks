@@ -1,9 +1,13 @@
 import React from 'react';
 
+import portfolio from './portfolio.json';
+
 function fetchData(callback) {
-  return fetch('http://localhost:8080/api/portfolio')
-    .then(response => response.json())
-    .then(data => callback(data));
+  callback(portfolio);
+
+  // return fetch('http://localhost:8080/api/portfolio')
+  //   .then(response => response.json())
+  //   .then(data => callback(data));
 }
 class Portfolio extends React.Component {
   state = {

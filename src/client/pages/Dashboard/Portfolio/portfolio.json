@@ -1,0 +1,26 @@
+[
+  {
+    "contractId": 1,
+    "productId": "rice",
+    "productName": "Rice",
+    "price": "200",
+    "quantity": "400",
+    "fulfillmentDate": 1558270554557
+  },
+  {
+    "contractId": 2,
+    "productId": "maize",
+    "productName": "Maize",
+    "price": "140",
+    "quantity": "200",
+    "fulfillmentDate": 1553086554557
+  },
+  {
+    "contractId": 4,
+    "productId": "rice",
+    "productName": "Rice",
+    "price": "220",
+    "quantity": "300",
+    "fulfillmentDate": 1560862554557
+  }
+]
